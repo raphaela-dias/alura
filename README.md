@@ -6,3 +6,6 @@ Exercícios e projetos feitos para os cursos da Alura.
 
 <h2>Data Science</h2>
 Python para Data Science
+
+<h2>Programação</h2>
+A partir do zero: Iniciante em programação
