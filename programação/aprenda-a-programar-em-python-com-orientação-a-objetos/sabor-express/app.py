@@ -5,7 +5,7 @@ import os
 def finalizar_programa():
     os.system('cls')
     # os.system('clear') para Mac
-    print("Encerrando o programa")
+    print("Encerrando o programa!")
 
 #Programa principal
 if __name__ == '__main__':
