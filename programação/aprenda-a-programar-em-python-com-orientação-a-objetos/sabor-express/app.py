@@ -19,7 +19,10 @@ Sabor Express
 def exibir_subtitulo(texto):
     os.system('cls')
     #os.system('clear') para Mac
+    linha = '☆' * (len(texto))
+    print(linha)
     print(texto)
+    print(linha)
     print()
 
 
@@ -27,7 +30,7 @@ def exibir_subtitulo(texto):
 def exibir_opcoes():
     print("""    1. Cadastrar restaurante
     2. Listar restaurantes
-    3. Ativar restaurante
+    3. Alternar estado do restaurante
     4. Sair\n""")
 
 
@@ -74,12 +77,14 @@ def cadastrar_novo_restaurante():
 def listar_restaurantes():
     exibir_subtitulo("Listando os restaurantes")
 
+    print(f'{"Nome do restaurante".ljust(22)} | {"Categoria".ljust(20)} | Status')
+
     for restaurante in restaurantes:
         nome = restaurante['nome']
         categoria = restaurante['categoria']
-        ativo = restaurante['ativo']
+        ativo = 'Ativado' if restaurante['ativo'] else 'Desativado'
         
-        print(f" - {nome} | {categoria} | {ativo}")
+        print(f" - {nome.ljust(20)} | {categoria.ljust(20)} | {ativo}")
     
     voltar_ao_menu()
 
