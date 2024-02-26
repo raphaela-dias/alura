@@ -24,10 +24,12 @@ class Restaurante:
     def alternar_estado(self):
         self._ativo = not self._ativo
 
-restaurante_praca = Restaurante('praça', 'Goumert')
-restaurante_pizza = Restaurante('pizza express', 'Italiana')
-restaurante_praca.alternar_estado()
-Restaurante.listar_restaurante()
+
+############## TESTES ##############
+#restaurante_praca = Restaurante('praça', 'Goumert')
+#restaurante_pizza = Restaurante('pizza express', 'Italiana')
+#restaurante_praca.alternar_estado()
+#Restaurante.listar_restaurante()
 
 #dir() - mostra todas as classes do objeto
 #print(dir(restaurante_praca))
