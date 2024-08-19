@@ -13,7 +13,7 @@ Django: Crie aplicações em Python
 
 <h2>Data Science</h2>
 > Status: Em progresso
-<br>Primeiros passos em Engenharia de Dados
+<br>Primeiros passos em Engenharia de Dados</br>
 Python para Data Science
 
 <h2>Inteligência Artificial</h2>
