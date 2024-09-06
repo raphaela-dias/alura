@@ -1,1 +1,1 @@
-console.log("Rebeca Andrade");
+console.log(dados[0].descricao);
