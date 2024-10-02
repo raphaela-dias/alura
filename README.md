@@ -3,15 +3,15 @@
 Exercícios e projetos feitos para os cursos da Alura.
 
 <h2>Programação</h2>
-> Status: Em progresso
-<br>A partir do zero: Iniciante em programação
-<br>Aprenda a programar em Python com Orientação a Objetos</br>
-Django: Crie aplicações em Python
+<blockquote>Status: Em progresso</blockquote>
+A partir do zero: Iniciante em programação
+<br>Aprenda a programar em Python com Orientação a Objetos
+<br>Django: Crie aplicações em Python
 
 <h2>Data Science</h2>
-> Status: Em progresso
+<blockquote>Status: Em progresso</blockquote>
 Python para Data Science
 
 <h2>Inteligência Artificial</h2>
-> Status: Em progresso
-<br>OpenAI e Python: Crie ferramentas poderosas e chatbots inteligentes com as APIs da OpenAI</br>
+<blockquote>Status: Em progresso</blockquote>
+OpenAI e Python: Crie ferramentas poderosas e chatbots inteligentes com as APIs da OpenAI
